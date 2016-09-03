@@ -51,10 +51,11 @@ public class login extends HttpServlet {
 //                out.println("[" + i + "] " + separada[i]);
 //            }
             BeanLogin bl = new Usuario_sistema().consultar_x_usuario(usuario, separada);
+            
             if(bl != null){
-                out.println("<h2> Bienvenido: "+bl.getUsuario()+", "+bl.getPassword()+"</h2>");           
+                response.getWriter().println("<h2> Bienvenido: "+bl.getUsuario()+", "+bl.getPassword()+"</h2>");           
             }else{
-                out.println("<h2>No se encontro coincidencias</h2>");
+                response.getWriter().println("<h2>No se encontro coincidencias</h2>");
             }
             
             
