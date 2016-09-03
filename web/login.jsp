@@ -9,8 +9,6 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/main.js"></script>
         <title>Login</title>
         
     </head>
@@ -37,6 +35,7 @@
 
         </form>
         
-        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
