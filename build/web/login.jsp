@@ -33,5 +33,8 @@
             </table>
 
         </form>
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/panelAdministracion.js"></script>
     </body>
 </html>
